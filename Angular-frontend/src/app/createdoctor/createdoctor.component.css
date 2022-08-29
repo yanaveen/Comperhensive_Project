@@ -1,0 +1,10 @@
+
+.container-fluid{
+   background-color: burlywood;
+   padding-top: 15px;
+}
+
+.container{
+    padding-left: 20%;
+    padding-right: 20%;
+}

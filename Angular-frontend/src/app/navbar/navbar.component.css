@@ -1,0 +1,31 @@
+.navbar {
+    padding: 0;
+    width: 70px;
+  }
+
+  .navbar a, .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: #626262;
+    white-space: nowrap;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+    color: blue;
+  }
+
+  .navbar-nav{
+  
+      padding-top: 20px;
+      padding-left: 60%;
+  }
+
+a{
+    font-weight: bolder;
+}

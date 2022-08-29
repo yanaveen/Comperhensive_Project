@@ -1,0 +1,50 @@
+<div class="container">
+    <form class="form-inline my-4 ">
+        <input class="form-control mr-sm-2" type="search" placeholder="Enter patient Id" [(ngModel)]="id" name="id" aria-label="Search">
+        <div class="d-flex justify-content-center align-items-center">
+            <button class="btn btn-outline-warning my-4 " type="submit" (click)="showPatientInfo()"><i class="fa fa-search"></i> Search</button>
+        </div>
+      </form>
+      <div class="container">
+        <div class="card text-center">
+          <div class="card-header">
+           Patient Information
+          </div>
+<div class="p-5 ">
+<div class="mask">
+<div class="d-flex ">
+      <div>
+        <div>
+            <label > <b>Name of the Patient&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;{{patient.name}}</b></label> 
+        </div>
+        <br>
+        <div>
+          <label > <b>Patient age&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;{{patient.age}} </b></label> 
+      </div>
+      <br>
+        <div>
+            <label > <b>Gender&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp; {{patient.gender}}</b></label>
+        </div>
+        <br>
+        <div>
+            <label > <b>Date of Visit&nbsp;&nbsp;: &nbsp;&nbsp;&nbsp;{{patient.date_of_visit}}</b></label> 
+        </div>
+        <br>
+        <div>
+            <label > <b>Visited Doctor&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;{{patient.doctor_name}} </b></label> 
+        </div>
+        <br>
+            <label for=""><b>prescription&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;{{patient.prescription}}</b></label>
+    
+    </div>
+</div>
+</div>
+
+
+</div>
+
+</div>
+</div>
+
+
+<!-- Jumbotron -->
